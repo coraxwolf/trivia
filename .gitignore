@@ -11,6 +11,9 @@
 # Test binary, built with `go test -c`
 *.test
 
+# Test Go Files
+*_test.go
+
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
 
@@ -23,3 +26,21 @@ go.work.sum
 
 # env file
 .env
+.env*
+.env-*
+!.env-sample
+
+# Temporary files from AIR
+tmp
+
+# VSCode Settings
+.vscode
+
+# Binary
+bin
+
+# Log files
+*.log
+
+# Swap Files
+.swp
